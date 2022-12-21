@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-"""Define a class Square."""
+""" Square module """
 
-#just ccruising
+
 class Square:
-    """Represent a square."""
+    """ Declares a square class """
 
-    def __init__(self, size):
-        """Initialize a new Square.
+    def __init__(self, size) -> None:
+        """
+        Initializes class attributes
         Args:
-            size (int): The size of the new square.
+            size: size of square
         """
         self.__size = size
